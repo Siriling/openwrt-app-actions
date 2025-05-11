@@ -447,6 +447,8 @@ stop_ecm()
 		at_command="AT^NDISDUP=${define_connect},0"
 	elif [ "$manufacturer" = "huawei" ]; then
 		at_command="AT^NDISDUP=${define_connect},0"
+	elif [ "$manufacturer" = "tdtech" ]; then
+		at_command="AT^NDISDUP=${define_connect},0"
 	else
 		at_command='ATI'
 	fi

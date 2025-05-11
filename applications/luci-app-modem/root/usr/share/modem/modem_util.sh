@@ -84,6 +84,7 @@ m_modem_presets()
 		"meig") meig_presets ;;
 		"simcom") simcom_presets ;;
 		"huawei") huawei_presets ;;
+		"tdtech") tdtech_presets ;;
 	esac
 }
 
